@@ -1,0 +1,9 @@
+{
+  "name": "live-tracking",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "firebase deploy"
+  },
+  "author": "Keyur Bhole <kyrbhole@gmail.com>",
+  "license": "ISC"
+}

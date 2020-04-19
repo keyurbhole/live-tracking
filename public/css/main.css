@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+/*
+ * Top bar
+ */
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background-color: #445a65;
+  z-index: 20;
+}
+
+.top-bar .tracker {
+  position: absolute;
+  top: 24px;
+  left: 36px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.97);
+}
